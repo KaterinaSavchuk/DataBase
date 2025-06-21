@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Doom",
+    "year": 1993,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS", "Linux"],
+    "platforms_console": ["SNES", "Sega 32X", "Sega Saturn", "3DO", "PlayStation", "Game Boy Advance", "Atari Jaguar", "Xbox", "Xbox 360", "PlayStation 3"],
+    "publisher": "id Software"
+  },
+  {
+    "title": "Doom II: Hell on Earth",
+    "year": 1994,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS"],
+    "platforms_console": ["Game Boy Advance", "Sega Saturn"],
+    "publisher": "id Software"
+  },
+  {
+    "title": "Final Doom",
+    "year": 1996,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS"],
+    "platforms_console": [],
+    "publisher": "id Software"
+  },
+  {
+    "title": "Quake",
+    "year": 1996,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS", "Linux"],
+    "platforms_console": ["Nintendo 64", "Sega Saturn"],
+    "publisher": "id Software"
+  },
+  {
+    "title": "Quake II",
+    "year": 1997,
+    "platforms_pc": ["Windows", "Mac OS", "Linux"],
+    "platforms_console": ["Nintendo 64", "PlayStation", "Xbox 360", "Zeebo", "Dreamcast"],
+    "publisher": "Activision"
+  },
+  {
+    "title": "Quake III Arena",
+    "year": 1999,
+    "platforms_pc": ["Windows", "Mac OS", "Linux"],
+    "platforms_console": ["Dreamcast", "PlayStation 2", "Xbox 360"],
+    "publisher": "id Software"
+  },
+  {
+    "title": "Quake 4",
+    "year": 2005,
+    "platforms_pc": ["Windows", "Mac OS", "Linux"],
+    "platforms_console": ["Xbox 360"],
+    "publisher": "Activision"
+  },
+  {
+    "title": "Doom 3",
+    "year": 2004,
+    "platforms_pc": ["Windows", "Mac OS", "Linux"],
+    "platforms_console": ["Xbox", "Xbox 360", "PlayStation 3"],
+    "publisher": "Activision"
+  },
+  {
+    "title": "Doom (2016)",
+    "year": 2016,
+    "platforms_pc": ["Windows"],
+    "platforms_console": ["PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "title": "Doom Eternal",
+    "year": 2020,
+    "platforms_pc": ["Windows"],
+    "platforms_console": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "title": "Rage",
+    "year": 2011,
+    "platforms_pc": ["Windows", "Mac OS"],
+    "platforms_console": ["PlayStation 3", "Xbox 360"],
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "title": "Rage 2",
+    "year": 2019,
+    "platforms_pc": ["Windows"],
+    "platforms_console": ["PlayStation 4", "Xbox One"],
+    "publisher": "Bethesda Softworks"
+  },
+  {
+    "title": "Wolfenstein 3D",
+    "year": 1992,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS", "Linux", "Archimedes", "Apple IIGS", "Amiga 1200", "PC-98"],
+    "platforms_console": ["SNES", "Atari Jaguar", "3DO", "Game Boy Advance", "PlayStation 3", "Xbox", "Xbox 360"],
+    "publisher": "Apogee Software"
+  },
+  {
+    "title": "Spear of Destiny",
+    "year": 1992,
+    "platforms_pc": ["MS-DOS", "Windows", "Mac OS"],
+    "platforms_console": ["iOS"],
+    "publisher": "FormGen"
+  },
+  {
+    "title": "Commander Keen in Keen Dreams",
+    "year": 1991,
+    "platforms_pc": ["MS-DOS"],
+    "platforms_console": [],
+    "publisher": "id Software"
+  }
+]
