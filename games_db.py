@@ -9,63 +9,52 @@ def parse_date_safe(date_str):
         return datetime.strptime(date_str, "%Y-%m-%d").date()
     except ValueError:
         return None
-    
+
 conn = sqlite3.connect("id_software_games.db")
 cursor = conn.cursor()
 
 cursor.execute("""
-    CREATE TABLE IF id_software_games (
-    game_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    game_name TEXT,
-    relese_date DATE,
+    CREATE TABLE IF NOT EXISTS id_software_games (
+        game_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        game_name TEXT NOT NULL,
+        release_date DATE
     );
-    """)
+""")
 
 cursor.execute("""
-    CREATE TABLE IF devices_and_publishers (
-    PC TEXT,
-    consoles TEXT,
-    publishers TEXT,
-    FOREIGN KEY (game_id) REFERENCES id_software_games(game_id) ON DELETE CASCADE
+    CREATE TABLE IF NOT EXISTS devices_and_publishers (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        game_id INTEGER,
+        pc TEXT,
+        consoles TEXT,
+        publisher TEXT,
+        FOREIGN KEY (game_id) REFERENCES id_software_games(game_id) ON DELETE CASCADE
     );
-    """)
+""")
 
-with open("", "r", encoding="utf-8"
-) as f:
-    id_software_games = json.load(f)
-    
-for game in id_software_games: 
+with open("id_software_games_full.json", "r", encoding="utf-8") as f:
+    games_data = json.load(f)
+
+for game in games_data:
+    game_name = game["title"]
+    release_date = f"{game['year']}-01-01"
+    pc = ", ".join(game["platforms_pc"])
+    consoles = ", ".join(game["platforms_console"])
+    publisher = game["publisher"]
+
     cursor.execute("""
-        INSERT INTO  id_software_games (
-            game_name, relese_date,
-    
-    )
-    
-    VALUES ( ?, ?)
-    
-    """, (
-        game["game_name"],
-        parse_date_safe(game["relese_date"])
-        ))
+        INSERT INTO id_software_games (game_name, release_date)
+        VALUES (?, ?)
+    """, (game_name, parse_date_safe(release_date)))
 
-game_id = cursor.lastrowid
+    game_id = cursor.lastrowid
 
-cursor.execute("""
-    INSERT INTO  id_software_games (
-    PC, consoles,
-    publishers,
-    
-)
-    
-VALUES ( ?, ?, ?)
-    
-""", (
-    game["PC"],
-    game["consoles"],
-    game["publishers"],
-    ))
+    cursor.execute("""
+        INSERT INTO devices_and_publishers (game_id, pc, consoles, publisher)
+        VALUES (?, ?, ?, ?)
+    """, (game_id, pc, consoles, publisher))
 
 conn.commit()
 conn.close()
 
-print("Дані успішно додані!")
+print("Данні успішно додані в базу!")
