@@ -1,17 +1,10 @@
 [
     {
-        "title": "Castle Wolfenstein",
-        "year": 1981,
-        "platforms_pc": ["Apple II", "MS-DOS", "Commodore 64"],
+        "title": "Commander Keen",
+        "year": 1990,
+        "platforms_pc": ["MS-DOS"],
         "platforms_console": [],
-        "publisher": "Muse Software"
-    },
-    {
-        "title": "Beyond Castle Wolfenstein",
-        "year": 1984,
-        "platforms_pc": ["Apple II", "Commodore 64", "MS-DOS"],
-        "platforms_console": [],
-        "publisher": "Muse Software"
+        "publisher": "id Software / Apogee"
     },
     {
         "title": "Wolfenstein 3D",
@@ -26,6 +19,90 @@
         "platforms_pc": ["MS-DOS"],
         "platforms_console": [],
         "publisher": "FormGen"
+    },
+    {
+        "title": "DOOM",
+        "year": 1993,
+        "platforms_pc": ["MS-DOS", "Windows", "Linux", "macOS"],
+        "platforms_console": ["SNES", "Sega 32X", "3DO", "PS1", "Xbox", "Xbox 360", "PS3", "Switch", "PS4", "Xbox One"],
+        "publisher": "id Software / GT Interactive / Bethesda"
+    },
+    {
+        "title": "DOOM II: Hell on Earth",
+        "year": 1994,
+        "platforms_pc": ["MS-DOS", "Windows", "Linux"],
+        "platforms_console": ["GBA", "Xbox", "Xbox 360", "PS3", "Switch", "PS4", "Xbox One"],
+        "publisher": "id Software / GT Interactive / Bethesda"
+    },
+    {
+        "title": "Quake",
+        "year": 1996,
+        "platforms_pc": ["MS-DOS", "Windows", "Linux", "macOS"],
+        "platforms_console": ["Saturn", "N64", "Xbox", "Switch", "PS4", "Xbox One", "PS5", "Series X|S"],
+        "publisher": "id Software"
+    },
+    {
+        "title": "Quake II",
+        "year": 1997,
+        "platforms_pc": ["Windows", "Linux"],
+        "platforms_console": ["PS1", "N64", "Xbox One", "Series X|S"],
+        "publisher": "Activision / id Software"
+    },
+    {
+        "title": "Quake III Arena",
+        "year": 1999,
+        "platforms_pc": ["Windows", "Linux", "macOS"],
+        "platforms_console": ["Dreamcast", "PS2"],
+        "publisher": "Activision / id Software"
+    },
+    {
+        "title": "DOOM 3",
+        "year": 2004,
+        "platforms_pc": ["Windows", "Linux", "macOS"],
+        "platforms_console": ["Xbox", "Xbox 360", "PS3", "PS4", "Xbox One", "Switch"],
+        "publisher": "Activision / Bethesda"
+    },
+    {
+        "title": "Rage",
+        "year": 2011,
+        "platforms_pc": ["Windows", "macOS"],
+        "platforms_console": ["PS3", "Xbox 360"],
+        "publisher": "Bethesda Softworks"
+    },
+    {
+        "title": "DOOM",
+        "year": 2016,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS4", "Xbox One", "Switch"],
+        "publisher": "Bethesda Softworks"
+    },
+    {
+        "title": "DOOM Eternal",
+        "year": 2020,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS4", "PS5", "Xbox One", "Xbox Series X|S", "Switch"],
+        "publisher": "Bethesda Softworks"
+    },
+    {
+        "title": "DOOM: The Dark Ages",
+        "year": 2025,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["Xbox Series X|S"],
+        "publisher": "Bethesda Softworks"
+    },
+    {
+        "title": "Castle Wolfenstein",
+        "year": 1981,
+        "platforms_pc": ["Apple II", "MS-DOS", "Commodore 64"],
+        "platforms_console": [],
+        "publisher": "Muse Software"
+    },
+    {
+        "title": "Beyond Castle Wolfenstein",
+        "year": 1984,
+        "platforms_pc": ["Apple II", "Commodore 64", "MS-DOS"],
+        "platforms_console": [],
+        "publisher": "Muse Software"
     },
     {
         "title": "Return to Castle Wolfenstein",
@@ -83,97 +160,4 @@
         "platforms_console": ["PS4 (VR)"],
         "publisher": "MachineGames / Bethesda"
     }
-[
-    {
-        "title": "Commander Keen",
-        "year": 1990,
-        "platforms_pc": ["MS-DOS"],
-        "platforms_console": [],
-        "publisher": "id Software / Apogee"
-    },
-    {
-        "title": "Wolfenstein 3D",
-        "year": 1992,
-        "platforms_pc": ["MS-DOS", "Windows", "Linux"],
-        "platforms_console": ["Super NES", "3DO", "Jaguar", "GBA", "Xbox 360", "PS3", "Switch"],
-        "publisher": "Apogee / id Software / Bethesda"
-    },
-    {
-        "title": "Spear of Destiny",
-        "year": 1992,
-        "platforms_pc": ["MS-DOS"],
-        "platforms_console": [],
-        "publisher": "FormGen"
-    },
-    {
-        "title": "DOOM",
-        "year": 1993,
-        "platforms_pc": ["MS-DOS", "Windows", "Linux", "macOS"],
-        "platforms_console": ["SNES", "Sega 32X", "3DO", "PS1", "Xbox", "Xbox 360", "PS3", "Switch", "PS4", "Xbox One"],
-        "publisher": "id Software / GT Interactive / Bethesda"
-    },
-    {
-        "title": "DOOM II: Hell on Earth",
-        "year": 1994,
-        "platforms_pc": ["MS-DOS", "Windows", "Linux"],
-        "platforms_console": ["GBA", "Xbox", "Xbox 360", "PS3", "Switch", "PS4", "Xbox One"],
-        "publisher": "id Software / GT Interactive / Bethesda"
-    },
-    {
-        "title": "Quake",
-        "year": 1996,
-        "platforms_pc": ["MS-DOS", "Windows", "Linux", "macOS"],
-        "platforms_console": ["Saturn", "N64", "Xbox", "Switch", "PS4", "Xbox One", "PS5", "Series X|S"],
-        
-        "publisher": "id Software"
-    },
-    {
-        "title": "Quake II",
-        "year": 1997,
-        "platforms_pc": ["Windows", "Linux"],
-        "platforms_console": ["PS1", "N64", "Xbox One", "Series X|S"],
-        "publisher": "Activision / id Software"
-    },
-    {
-        "title": "Quake III Arena",
-        "year": 1999,
-        "platforms_pc": ["Windows", "Linux", "macOS"],
-        "platforms_console": ["Dreamcast", "PS2"],
-        "publisher": "Activision / id Software"
-    },
-    {
-        "title": "DOOM 3",
-        "year": 2004,
-        "platforms_pc": ["Windows", "Linux", "macOS"],
-        "platforms_console": ["Xbox", "Xbox 360", "PS3", "PS4", "Xbox One", "Switch"],
-        "publisher": "Activision / Bethesda"
-    },
-    {
-        "title": "Rage",
-        "year": 2011,
-        "platforms_pc": ["Windows", "macOS"],
-        "platforms_console": ["PS3", "Xbox 360"],
-        "publisher": "Bethesda Softworks"
-    },
-    {
-        "title": "DOOM",
-        "year": 2016,
-        "platforms_pc": ["Windows"],
-        "platforms_console": ["PS4", "Xbox One", "Switch"],
-        "publisher": "Bethesda Softworks"
-    },
-    {
-        "title": "DOOM Eternal",
-        "year": 2020,
-        "platforms_pc": ["Windows"],
-        "platforms_console": ["PS4", "PS5", "Xbox One", "Xbox Series X|S", "Switch"],
-        "publisher": "Bethesda Softworks"
-    },
-    {
-        "title": "DOOM: The Dark Ages",
-        "year": 2025,
-        "platforms_pc": ["Windows"],
-        "platforms_console": ["Xbox Series X|S"],
-        "publisher": "Bethesda Softworks"
-    }
-]
+        ]
