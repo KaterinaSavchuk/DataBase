@@ -1,5 +1,90 @@
 [
     {
+        "title": "Castle Wolfenstein",
+        "year": 1981,
+        "platforms_pc": ["Apple II", "MS-DOS", "Commodore 64"],
+        "platforms_console": [],
+        "publisher": "Muse Software"
+    },
+    {
+        "title": "Beyond Castle Wolfenstein",
+        "year": 1984,
+        "platforms_pc": ["Apple II", "Commodore 64", "MS-DOS"],
+        "platforms_console": [],
+        "publisher": "Muse Software"
+    },
+    {
+        "title": "Wolfenstein 3D",
+        "year": 1992,
+        "platforms_pc": ["MS-DOS", "Windows", "Linux"],
+        "platforms_console": ["Super NES", "3DO", "Jaguar", "GBA", "Xbox 360", "PS3", "Switch"],
+        "publisher": "Apogee / id Software / Bethesda"
+    },
+    {
+        "title": "Spear of Destiny",
+        "year": 1992,
+        "platforms_pc": ["MS-DOS"],
+        "platforms_console": [],
+        "publisher": "FormGen"
+    },
+    {
+        "title": "Return to Castle Wolfenstein",
+        "year": 2001,
+        "platforms_pc": ["Windows", "Linux", "macOS"],
+        "platforms_console": ["PS2", "Xbox"],
+        "publisher": "Activision / id Software"
+    },
+    {
+        "title": "Wolfenstein: Enemy Territory",
+        "year": 2003,
+        "platforms_pc": ["Windows", "Linux", "macOS"],
+        "platforms_console": [],
+        "publisher": "Splash Damage / id Software"
+    },
+    {
+        "title": "Wolfenstein",
+        "year": 2009,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS3", "Xbox 360"],
+        "publisher": "Raven Software / Activision"
+    },
+    {
+        "title": "Wolfenstein: The New Order",
+        "year": 2014,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS3", "PS4", "Xbox 360", "Xbox One"],
+        "publisher": "MachineGames / Bethesda"
+    },
+    {
+        "title": "Wolfenstein: The Old Blood",
+        "year": 2015,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS4", "Xbox One"],
+        "publisher": "MachineGames / Bethesda"
+    },
+    {
+        "title": "Wolfenstein II: The New Colossus",
+        "year": 2017,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS4", "Xbox One", "Switch"],
+        "publisher": "MachineGames / Bethesda"
+    },
+    {
+        "title": "Wolfenstein: Youngblood",
+        "year": 2019,
+        "platforms_pc": ["Windows"],
+        "platforms_console": ["PS4", "Xbox One", "Switch"],
+        "publisher": "MachineGames / Bethesda"
+    },
+    {
+        "title": "Wolfenstein: Cyberpilot",
+        "year": 2019,
+        "platforms_pc": ["Windows (VR)"],
+        "platforms_console": ["PS4 (VR)"],
+        "publisher": "MachineGames / Bethesda"
+    }
+[
+    {
         "title": "Commander Keen",
         "year": 1990,
         "platforms_pc": ["MS-DOS"],
@@ -39,6 +124,7 @@
         "year": 1996,
         "platforms_pc": ["MS-DOS", "Windows", "Linux", "macOS"],
         "platforms_console": ["Saturn", "N64", "Xbox", "Switch", "PS4", "Xbox One", "PS5", "Series X|S"],
+        
         "publisher": "id Software"
     },
     {
