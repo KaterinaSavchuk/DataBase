@@ -14,7 +14,7 @@ conn = sqlite3.connect("id_software_games.db")
 cursor = conn.cursor()
 
 cursor.execute("""
-    CREATE TABLE IF NOT EXISTS id_software_games (
+    CREATE TABLE IF NOT EXISTS games (
         game_id INTEGER PRIMARY KEY AUTOINCREMENT,
         game_name TEXT NOT NULL,
         release_date DATE
@@ -28,7 +28,7 @@ cursor.execute("""
         pc TEXT,
         consoles TEXT,
         publisher TEXT,
-        FOREIGN KEY (game_id) REFERENCES id_software_games(game_id) ON DELETE CASCADE
+        FOREIGN KEY (game_id) REFERENCES games(game_id) ON DELETE CASCADE
     );
 """)
 
@@ -43,7 +43,7 @@ for game in games_data:
     publisher = game["publisher"]
 
     cursor.execute("""
-        INSERT INTO id_software_games (game_name, release_date)
+        INSERT INTO games (game_name, release_date)
         VALUES (?, ?)
     """, (game_name, parse_date_safe(release_date)))
 
