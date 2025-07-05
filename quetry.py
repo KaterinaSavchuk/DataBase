@@ -247,3 +247,4 @@ execute_query("""
     JOIN devices_and_publishers d ON g.game_id = d.game_id
     WHERE d.consoles LIKE '%Series X|S%'
 """)
+conn.close()
